@@ -1,0 +1,25 @@
+version: '2'
+services:
+  upload:
+    build: .
+    image: search
+    volumes:
+      - ./:/code
+    command: tail -f /etc/fstab
+    environment:
+      URL: "https://mantiser-com.ew.r.appspot.com/data/"
+      KEY: "7B3PAFD2MEHHOcW3"
+      NATS: nats
+    depends_on: 
+      - nats
+  #    - natin
+  #natint:
+  #  build: .
+  #  command: python3 -u intoNats.py
+  #  environment:
+  #    NATS: nats
+  #  depends_on: 
+  #    - nats
+  nats:
+    image: nats
+

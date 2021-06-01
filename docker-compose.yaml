@@ -2,7 +2,7 @@ version: '2'
 services:
   upload:
     build: .
-    image: search
+    image: mantiser/upload 
     volumes:
       - ./:/code
     command: tail -f /etc/fstab

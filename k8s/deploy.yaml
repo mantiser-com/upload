@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mantiser-uploader
+spec:
+  selector:
+    matchLabels:
+      app: mantiser-uploader
+  template:
+    metadata:
+      labels:
+        app: mantiser-uploader
+    spec:
+      containers:
+        - image: mantiser/upload
+          name: mantiser-uploader
+          imagePullPolicy: Never
+          env:
+            - name: NATS
+              value: nats
+            - name: SEARCH
+              value: "Mantiser"
+            - name: USER_ID
+              value: "asdasdasdasd"
+            - name: RESULT_NATS
+              value: "nats"
+          #command: ['python','-u','/code/service_watch.py']        

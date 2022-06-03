@@ -5,7 +5,7 @@ services:
     image: mantiser/upload 
     volumes:
       - ./:/code
-    command: tail -f /etc/fstab
+    #command: tail -f /etc/fstab
     environment:
       URL: "https://mantiser-com.ew.r.appspot.com/data/"
       KEY: "7B3PAFD2MEHHOcW3"

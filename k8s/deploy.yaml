@@ -17,11 +17,14 @@ spec:
           imagePullPolicy: Never
           env:
             - name: NATS
-              value: nats
+              value: nats.default.svc
             - name: SEARCH
               value: "Mantiser"
             - name: USER_ID
               value: "asdasdasdasd"
             - name: RESULT_NATS
               value: "nats"
+            - name: MONGO_URI
+              #value: mongodb://root:pass@mongodb.mantiser:27017
+              value: "mongodb://root:aULF4AUQAT@mongodb-0.mongodb-headless:27017,mongodb-1.mongodb-headless:27017,mongodb-2.mongodb-headless:27017/mantiser?authSource=admin&replicaSet=bd0"
           #command: ['python','-u','/code/service_watch.py']        

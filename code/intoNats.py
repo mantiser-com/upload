@@ -23,7 +23,7 @@ def addNatsRun(to,text):
     return {
            "deliverd":"ok" 
     }
-json_to_send = {'action': 'searchGoogle', 
-                'url': 'https://www.elino.se',
-                'user_id': 'ahsdjkhasjkdhajksdhajkshdk'}
-addNatsRun("upload",json.dumps(json_to_send))
+#json_to_send = {'action': 'searchGoogle', 
+#                'url': 'https://www.elino.se',
+#                'user_id': 'ahsdjkhasjkdhajksdhajkshdk'}
+#addNatsRun("upload",json.dumps(json_to_send))

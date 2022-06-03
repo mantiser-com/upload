@@ -14,6 +14,7 @@ from nats.aio.errors import ErrConnectionClosed, ErrTimeout, ErrNoServers
 
 from sendData import upload_data
 from storeMongo import storeDB
+from meilisSearch import addMeilsearch
 
 from flask import Flask, request, render_template, url_for, redirect
 app = Flask(__name__)
@@ -36,8 +37,11 @@ async def run(loop):
 		reply = msg.reply
 		data = msg.data.decode()
 		data_json = json.loads(json.dumps(eval(data)))
-		print(data_json)
-		storeDB(data_json)
+		me_data_json = json.loads(json.dumps(eval(data)))
+		#print(data_json)
+		monogid = storeDB(data_json)
+		me_data_json["id"]=str(monogid)
+		addMeilsearch(me_data_json)
 		upload_data(data_json)
 	# Simple publisher and async subscriber via coroutine.
 	

@@ -9,8 +9,11 @@ import asyncio
 import os
 import requests
 import json
+import asyncio
+import nats
+from nats.errors import ConnectionClosedError, TimeoutError, NoServersError
 from nats.aio.client import Client as NATS
-from nats.aio.errors import ErrConnectionClosed, ErrTimeout, ErrNoServers
+
 
 from sendData import upload_data
 from storeMongo import storeDB
@@ -30,8 +33,14 @@ def ready():
 To test that the search adds data to nats we can use this python file
 '''
 async def run(loop):
+
 	nc = NATS()
-	await nc.connect("{}:4222".format(os.getenv('NATS')), loop=loop)
+	async def disconnected_cb():
+		print("Got disconnected...")
+	async def reconnected_cb():
+		print("Got reconnected...")
+	await nc.connect("{}:4222".format(os.getenv('NATS')) )
+	
 	async def message_handler(msg):
 		subject = msg.subject
 		reply = msg.reply
@@ -45,7 +54,7 @@ async def run(loop):
 		upload_data(data_json)
 	# Simple publisher and async subscriber via coroutine.
 	
-	sid = await nc.subscribe("upload", cb=message_handler)
+	sud = await nc.subscribe("upload", cb=message_handler)
 	print("Connected to nats waith response")
 
 
@@ -53,8 +62,9 @@ async def run(loop):
 
 
 if __name__ == '__main__':
-    #app.run(debug=True)
     loop = asyncio.get_event_loop()
     loop.run_until_complete(run(loop))
     loop.run_forever()
+    loop.close()
+
     

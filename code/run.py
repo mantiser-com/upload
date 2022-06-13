@@ -32,14 +32,14 @@ def ready():
 '''
 To test that the search adds data to nats we can use this python file
 '''
-async def run(loop):
+async def run():
 
 	nc = NATS()
 	async def disconnected_cb():
 		print("Got disconnected...")
 	async def reconnected_cb():
 		print("Got reconnected...")
-	await nc.connect("{}:4222".format(os.getenv('NATS')) )
+	await nc.connect("{}:4222".format(os.getenv('NATS')))
 	
 	async def message_handler(msg):
 		subject = msg.subject
@@ -63,7 +63,7 @@ async def run(loop):
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(run(loop))
+    loop.run_until_complete(run())
     loop.run_forever()
     loop.close()
 

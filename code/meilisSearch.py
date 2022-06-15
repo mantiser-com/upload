@@ -3,6 +3,15 @@ import json
 
 client = meilisearch.Client('http://meilisearch:7700')
 
+filter = client.index('mantiser_page').update_filterable_attributes([
+  'userid',
+  'postid',
+  'h1'
+])
+sort = client.index('mantiser_page').update_sortable_attributes([
+  'scantime',
+
+])
 
 def addMeilsearch(json_data):
     # An index is where the documents are stored.

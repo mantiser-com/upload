@@ -1,56 +1,35 @@
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: files-disk
-  namespace: mantiser
-spec:
-  accessModes:
-  - ReadWriteMany
-  resources:
-    requests:
-      storage: 200Gi
-  storageClassName: rook-cephfs
-
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    mantiser-com/user_id: "1112"
-  name: finder-email
-  labels:
-    app: finder-email
+  name: mantiser-uploader
 spec:
-  replicas: 1
   selector:
     matchLabels:
-      app: finder-email
+      app: mantiser-uploader
   template:
     metadata:
-      annotations:
-        app: finder-email
       labels:
-        app: finder-email
+        app: mantiser-uploader
     spec:
-      volumes:
-        - name: files-disk
-          persistentVolumeClaim:
-            claimName: files-disk
       containers:
-        - name: search
-          volumeMounts:
-            - name: files-disk
-              mountPath: /files
-          image: {{ .Values.image.repository}}:{{ .Values.image.tag }}
+        - image: image: {{ .Values.image.repository}}:{{ .Values.image.tag }}
+          name: mantiser-uploader
           imagePullPolicy: Always
           env:
             - name: NATS
               value: nats
             - name: SEARCH
               value: "Mantiser"
+            - name: USER_ID
+              value: "asdasdasdasd"
+            - name: RESULT_NATS
+              value: "nats"
+            - name: MONGO_URI
             - name: MEILISEARCH 
               value: meilisearch.meilisearch.svc:7700
-          resources:
-            requests:
-              cpu: 100m
-              memory: 256Mi
+              valueFrom:
+                secretKeyRef:
+                  name: mantiser 
+                  key: mongouri
+                  optional: false
+

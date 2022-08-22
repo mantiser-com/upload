@@ -12,7 +12,7 @@ spec:
         app: mantiser-uploader
     spec:
       containers:
-        - image: image: {{ .Values.image.repository}}:{{ .Values.image.tag }}
+        - image: {{ .Values.image.repository}}:{{ .Values.image.tag }}
           name: mantiser-uploader
           imagePullPolicy: Always
           env:

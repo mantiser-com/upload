@@ -1,7 +1,8 @@
 import meilisearch
 import json
+import os 
 
-client = meilisearch.Client('http://meilisearch:7700')
+client = meilisearch.Client(os.getenv('NATS'))
 
 filter = client.index('mantiser_page').update_filterable_attributes([
   'userid',

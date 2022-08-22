@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mantiser-uploader
+  namespace: mantiser
 spec:
   selector:
     matchLabels:

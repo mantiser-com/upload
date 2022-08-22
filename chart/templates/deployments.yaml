@@ -26,7 +26,7 @@ spec:
               value: "nats"
             - name: MONGO_URI
             - name: MEILISEARCH 
-              value: meilisearch.meilisearch.svc:7700
+              value: http://meilisearch.meilisearch.svc:7700
               valueFrom:
                 secretKeyRef:
                   name: mantiser 

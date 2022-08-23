@@ -27,9 +27,9 @@ spec:
               value: "asdasdasdasd"
             - name: RESULT_NATS
               value: "nats"
-            - name: MONGO_URI
             - name: MEILISEARCH 
               value: http://meilisearch.meilisearch.svc:7700
+            - name: MONGO_URI
               valueFrom:
                 secretKeyRef:
                   name: mantiser 

@@ -10,8 +10,10 @@ services:
       URL: "https://mantiser-com.ew.r.appspot.com/data/"
       KEY: "7B3PAFD2MEHHOcW3"
       NATS: nats
+      MEILISEARCH: "http://meilisearch:7700"
     depends_on: 
       - nats
+      - meilisearch
   #    - natin
   #natint:
   #  build: .
@@ -23,3 +25,7 @@ services:
   nats:
     image: nats
 
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    ports:
+      - 7700:7700

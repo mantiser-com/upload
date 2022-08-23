@@ -2,17 +2,36 @@ import meilisearch
 import json
 import os 
 
-client = meilisearch.Client(os.getenv('NATS'))
+client = meilisearch.Client(os.getenv('MEILISEARCH'))
 
-filter = client.index('mantiser_page').update_filterable_attributes([
-  'userid',
-  'postid',
-  'h1'
-])
-sort = client.index('mantiser_page').update_sortable_attributes([
-  'scantime',
 
-])
+## Bootstrap meilisearch
+index = client.index('mantiser_page')
+documents = [
+      { 'userid': 1, 'postid': 1, 'h1': ['data', 'data'] }]
+
+ret = index.add_documents(documents)
+print(ret)
+
+try: 
+  filter = client.index('mantiser_page').update_filterable_attributes([
+    'userid',
+    'postid',
+    'h1'
+  ])
+except:
+  print("Error setting filter on index")
+
+try: 
+  sort = client.index('mantiser_page').update_sortable_attributes([
+    'scantime',
+
+  ])
+except:
+  print("Error setting sort on index")
+
+
+
 
 def addMeilsearch(json_data):
     # An index is where the documents are stored.

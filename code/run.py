@@ -18,6 +18,7 @@ from nats.aio.client import Client as NATS
 from sendData import upload_data
 from storeMongo import storeDB
 from meilisSearch import addMeilsearch
+from muaticAPI import create_contact_mautic
 
 from flask import Flask, request, render_template, url_for, redirect
 app = Flask(__name__)
@@ -47,11 +48,18 @@ async def run():
 		data = msg.data.decode()
 		data_json = json.loads(json.dumps(eval(data)))
 		me_data_json = json.loads(json.dumps(eval(data)))
-		#print(data_json)
+
 		monogid = storeDB(data_json)
 		me_data_json["id"]=str(monogid)
 		addMeilsearch(me_data_json)
 		upload_data(data_json)
+		print("%%%%%%%%%%%%%%%%%%%%")
+		print(data_json['dest'])
+		#If we have a email in the json upload to muatic
+		if 'email' in data_json: 
+			if 'muatic' in data_json['dest']:
+				create_contact_mautic(data_json)
+
 	# Simple publisher and async subscriber via coroutine.
 	
 	sud = await nc.subscribe("upload", cb=message_handler)

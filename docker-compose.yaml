@@ -11,6 +11,8 @@ services:
       KEY: "7B3PAFD2MEHHOcW3"
       NATS: nats
       MEILISEARCH: "http://meilisearch:7700"
+      MUATIC_AUTH: bWFudGlzZXI6bWFudGlzZXIxMjEy
+      MUATIC_URL: https://mautic.apps.northamlin.com
     depends_on: 
       - nats
       - meilisearch

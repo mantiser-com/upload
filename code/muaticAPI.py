@@ -14,15 +14,26 @@ header={'Authorization': 'Basic {}'.format(MUATIC_AUTH)
 def create_contact_mautic(emailData):
     print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
     print(emailData)
+    email = emailData['email'].split("@")
     data = {
         'email': emailData['email'],
-        'firstname': emailData['postid'],
-        'lastname': emailData['projectID'],
+        'firstname': email[0],
+        'lastname': email[1],
         'website': emailData['url'],
+        'tags': emailData['tech'],
+        'stage': emailData['postid'],
         'owner':1
         }
     try:
         data["tags"] =emailData['tech']
+    except:
+        pass
+    try:
+        data['city'] = emailData["city"]
+    except:
+        pass
+    try:
+        data['country'] = emailData["country"]
     except:
         pass
 
@@ -30,7 +41,13 @@ def create_contact_mautic(emailData):
     response = requests.request('POST', url, data=json.dumps(data), headers=header )
     print("Send to mautic")
     print(response.text)
-    print(response)
+    print(response.status_code)
+
+    if response.status_code == 500:
+        #we got a 500 lets try again without stage
+        data['stage'] = 3
+        response = requests.request('POST', url, data=json.dumps(data), headers=header )
+
 
 
 def get_contacts():

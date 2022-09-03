@@ -30,9 +30,17 @@ spec:
             - name: MEILISEARCH 
               value: http://meilisearch.meilisearch.svc:7700
             - name: MUATIC_AUTH
-              value: bWFudGlzZXI6bWFudGlzZXIxMjEy
+              valueFrom:
+                secretKeyRef:
+                  name: mantiser 
+                  key: MUATIC_AUTH
+                  optional: false
             - name: MUATIC_URL
-              value: https://mautic.apps.northamlin.com
+              valueFrom:
+                secretKeyRef:
+                  name: mantiser 
+                  key: MUATIC_URL
+                  optional: false
             - name: MONGO_URI
               valueFrom:
                 secretKeyRef:

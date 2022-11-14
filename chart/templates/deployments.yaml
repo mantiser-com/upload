@@ -47,4 +47,9 @@ spec:
                   name: mantiser 
                   key: mongouri
                   optional: false
-
+            - name: MEILISEARCH_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: mantiser 
+                  key: MEILI_MASTER_KEY
+                  optional: false

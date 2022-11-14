@@ -11,8 +11,7 @@ import requests
 import json
 import asyncio
 import nats
-from nats.errors import ConnectionClosedError, TimeoutError, NoServersError
-from nats.aio.client import Client as NATS
+from nats.errors import TimeoutError
 
 
 from sendData import upload_data
@@ -35,12 +34,9 @@ To test that the search adds data to nats we can use this python file
 '''
 async def run():
 
-	nc = NATS()
-	async def disconnected_cb():
-		print("Got disconnected...")
-	async def reconnected_cb():
-		print("Got reconnected...")
-	await nc.connect("{}:4222".format(os.getenv('NATS')))
+	nc = await nats.connect(os.getenv('NATS'))
+	# Create JetStream context.
+	js = nc.jetstream()
 	
 	async def message_handler(msg):
 		subject = msg.subject
@@ -60,11 +56,17 @@ async def run():
 			if 'muatic' in data_json['dest']:
 				create_contact_mautic(data_json)
 
-	# Simple publisher and async subscriber via coroutine.
-	
-	sud = await nc.subscribe("upload", cb=message_handler)
-	print("Connected to nats waith response")
 
+	osub = await js.subscribe("upload",durable="upload")
+	data = bytearray()
+
+	while True:
+		try:
+			msg = await osub.next_msg()
+			await message_handler(msg)
+			await msg.ack()
+		except TimeoutError:
+		    print("All data in stream:", len(data))
 
 
 

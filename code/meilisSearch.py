@@ -2,18 +2,33 @@ import meilisearch
 import json
 import os 
 
-client = meilisearch.Client(os.getenv('MEILISEARCH'))
+client = meilisearch.Client(os.getenv('MEILISEARCH'),os.getenv('MEILISEARCH_KEY'))
 
 
 ## Bootstrap meilisearch
-index = client.index('mantiser_page')
+index = client.index('mantiser_page' )
 documents = [
-      { 'userid': 1, 'postid': 1, 'h1': ['data', 'data'] }]
-try: 
-  ret = index.add_documents(documents)
-  print(ret)
-except:
-  print("docs alreaddy there")
+      { 'id': 1} ]
+ret = index.add_documents(documents)
+
+index = client.index('mantiser_email' )
+documents = [
+      { 'id': 1} ]
+ret = index.add_documents(documents)
+
+index = client.index('mantiser_company' )
+documents = [
+      { 'id': 1} ]
+ret = index.add_documents(documents)
+
+index = client.index('mantiser_people' )
+documents = [
+      { 'id': 1} ]
+ret = index.add_documents(documents)
+
+
+#except:
+#  print("docs alreaddy there")
 try: 
   filter = client.index('mantiser_page').update_filterable_attributes([
     'userid',
@@ -37,14 +52,8 @@ except:
 def addMeilsearch(json_data):
     # An index is where the documents are stored.
     print(json_data)
-    try:
-      user_index= "mantiser_"+str(json_data["projectID"])  #+"_"+json_data["userid"]
-      client.create_index(user_index, {'primaryKey': 'id'})
-    except:
-      print("We have index")
-    index = client.index(user_index)
     # If the index 'movies' does not exist, Meilisearch creates it when you first add the documents.
     #json_data["_id"]=0
-    
-    index.add_documents([json_data]) # => { "uid": 0 }
-    print("Data added to melissearch")
+    index_add = client.index('mantiser{0}'.format(json_data['type']) )
+    mreply = index_add.add_documents([json_data]) # => { "uid": 0 }
+    print(mreply)

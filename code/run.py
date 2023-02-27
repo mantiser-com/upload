@@ -42,20 +42,26 @@ async def run():
 		subject = msg.subject
 		reply = msg.reply
 		data = msg.data.decode()
-		data_json = json.loads(json.dumps(eval(data)))
-		me_data_json = json.loads(json.dumps(eval(data)))
-
-		monogid = storeDB(data_json)
-		me_data_json["id"]=str(monogid)
-		addMeilsearch(me_data_json)
-		upload_data(data_json)
-		print("%%%%%%%%%%%%%%%%%%%%")
-		print(data_json['dest'])
-		#If we have a email in the json upload to muatic
-		if 'email' in data_json: 
-			if 'muatic' in data_json['dest']:
-				create_contact_mautic(data_json)
-
+		try:
+			data_json = json.loads(json.dumps(eval(data)))
+			me_data_json = json.loads(json.dumps(eval(data)))
+		except:
+			data_json = json.loads(json.dumps(data))
+			me_data_json = json.loads(json.dumps(data))
+		try:
+			monogid = storeDB(data_json)
+			me_data_json["id"]=str(monogid)
+			addMeilsearch(me_data_json)
+			upload_data(data_json)
+			print("%%%%%%%%%%%%%%%%%%%%")
+			print(data_json['dest'])
+			#If we have a email in the json upload to muatic
+			if 'email' in data_json: 
+				if 'muatic' in data_json['dest']:
+					create_contact_mautic(data_json)
+		except:
+			print("Error in upload data")
+			pass
 
 	osub = await js.subscribe("upload",durable="upload")
 	data = bytearray()
@@ -66,8 +72,8 @@ async def run():
 			await message_handler(msg)
 			await msg.ack()
 		except TimeoutError:
-		    print("All data in stream:", len(data))
-
+			pass
+			
 
 
 

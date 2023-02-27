@@ -27,6 +27,11 @@ documents = [
 ret = index.add_documents(documents)
 
 
+index = client.index('mantiser_company' )
+documents = [
+      { 'id': 1} ]
+ret = index.add_documents(documents)
+
 #except:
 #  print("docs alreaddy there")
 try: 
@@ -48,6 +53,58 @@ except:
 
 
 
+try: 
+  filter = client.index('mantiser_people').update_filterable_attributes([
+    'userid',
+    'postid',
+    'h1'
+  ])
+except:
+  print("Error setting filter on index")
+
+try: 
+  sort = client.index('mantiser_people').update_sortable_attributes([
+    'scantime',
+
+  ])
+except:
+  print("Error setting sort on index")
+
+
+
+try: 
+  filter = client.index('mantiser_company').update_filterable_attributes([
+    'userid',
+    'postid',
+    'h1'
+  ])
+except:
+  print("Error setting filter on index")
+
+try: 
+  sort = client.index('mantiser_company').update_sortable_attributes([
+    'scantime',
+
+  ])
+except:
+  print("Error setting sort on index")
+
+try: 
+  filter = client.index('mantiser_email').update_filterable_attributes([
+    'userid',
+    'postid',
+    'h1'
+  ])
+except:
+  print("Error setting filter on index")
+
+try: 
+  sort = client.index('mantiser_email').update_sortable_attributes([
+    'scantime',
+
+  ])
+except:
+  print("Error setting sort on index")
 
 def addMeilsearch(json_data):
     # An index is where the documents are stored.

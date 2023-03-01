@@ -16,9 +16,25 @@ def storeDB(mongo_data):
     Store the data into a mongodb server
     '''
     db=client.mantiser
-    #userid=json_data["userid"]
-    collection = 'results{0}'.format(mongo_data['type'])
-    result=db.mantiser.collection.insert_one(mongo_data)
-    #Step 4: Print to the console the ObjectID of the new document
-    print(' {0}'.format(result.inserted_id))
-    return result.inserted_id
+
+
+    if mongo_data['type'] == "_company":
+        result=db.result.company.insert_one(mongo_data)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result))
+        return result.inserted_id
+    elif mongo_data['type'] == "_page":
+        result=db.result.page.insert_one(mongo_data)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result))
+        return result.inserted_id
+    elif mongo_data['type'] == "_person":
+        result=db.result.person.insert_one(mongo_data)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result))
+        return result.inserted_id
+    else:
+        result=db.result.other.insert_one(mongo_data)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result))
+        return result.inserted_id

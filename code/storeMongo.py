@@ -19,22 +19,22 @@ def storeDB(mongo_data):
 
 
     if mongo_data['type'] == "_company":
-        result=db.result.company.insert_one(mongo_data)
+        result=db.result_company.insert_one(mongo_data)
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result))
         return result.inserted_id
     elif mongo_data['type'] == "_page":
-        result=db.result.page.insert_one(mongo_data)
+        result=db.result_page.insert_one(mongo_data)
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result))
         return result.inserted_id
     elif mongo_data['type'] == "_person":
-        result=db.result.person.insert_one(mongo_data)
+        result=db.result_person.insert_one(mongo_data)
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result))
         return result.inserted_id
     else:
-        result=db.result.other.insert_one(mongo_data)
+        result=db.result_other.insert_one(mongo_data)
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result))
         return result.inserted_id

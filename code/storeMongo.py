@@ -17,7 +17,7 @@ def storeDB(mongo_data):
     '''
     db=client.mantiser
     #userid=json_data["userid"]
-    collection = 'results{0}'.format(mongo_data['type']
+    collection = 'results{0}'.format(mongo_data['type'])
     result=db.mantiser.collection.insert_one(mongo_data)
     #Step 4: Print to the console the ObjectID of the new document
     print(' {0}'.format(result.inserted_id))

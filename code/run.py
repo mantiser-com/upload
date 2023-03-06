@@ -42,13 +42,11 @@ async def run():
 		subject = msg.subject
 		reply = msg.reply
 		data = msg.data.decode()
+		data_json = json.loads(json.dumps(eval(data)))
+		me_data_json = json.loads(json.dumps(eval(data)))
 		try:
-			data_json = json.loads(json.dumps(eval(data)))
-			me_data_json = json.loads(json.dumps(eval(data)))
-		except:
-			data_json = json.loads(json.dumps(data))
-			me_data_json = json.loads(json.dumps(data))
-		try:
+			print("%%%%%%%%%% UPLOAD THIS%%%%%%%%%%")
+			print(data_json)
 			monogid = storeDB(data_json)
 			me_data_json["id"]=str(monogid)
 			addMeilsearch(me_data_json)

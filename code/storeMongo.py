@@ -28,8 +28,13 @@ def storeDB(mongo_data):
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result))
         return result.inserted_id
-    elif mongo_data['type'] == "_person":
+    elif mongo_data['type'] == "_people":
         result=db.result_person.insert_one(mongo_data)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result))
+        return result.inserted_id
+    elif mongo_data['type'] == "_email":
+        result=db.result_email.insert_one(mongo_data)
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result))
         return result.inserted_id

@@ -15,19 +15,27 @@ def create_contact_mautic(emailData):
     print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
     print(emailData)
     email = emailData['email'].split("@")
+    tags = []
+    tags.append(emailData['url'])
+    tags.append(emailData['postid'])
+    tags.append(emailData['userid'])
+    tags.append(emailData['tech'])
+    tags.append(email[1])
+    tags.append(emailData['prefix'])
+    tags.append(emailData['project'])
+
+
+
+
     data = {
         'email': emailData['email'],
         'firstname': email[0],
         'lastname': email[1],
         'website': emailData['url'],
-        'tags': emailData['tech'],
-        'stage': emailData['postid'],
+        'tags': tags,
+        'stage': emailData['project'],
         'owner':1
         }
-    try:
-        data["tags"] =emailData['tech']
-    except:
-        pass
     try:
         data['city'] = emailData["city"]
     except:

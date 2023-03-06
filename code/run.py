@@ -45,8 +45,8 @@ async def run():
 		data_json = json.loads(json.dumps(eval(data)))
 		me_data_json = json.loads(json.dumps(eval(data)))
 		try:
-			print("%%%%%%%%%% UPLOAD THIS%%%%%%%%%%")
-			print(data_json)
+			#print("%%%%%%%%%% UPLOAD THIS%%%%%%%%%%")
+			#print(data_json)
 			monogid = storeDB(data_json)
 			me_data_json["id"]=str(monogid)
 			addMeilsearch(me_data_json)

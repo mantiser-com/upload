@@ -61,10 +61,16 @@ async def run():
 			print("Error in upload data")
 			pass
 
+	osub = await js.subscribe("upload",durable="upload")
+	data = bytearray()
 
-	await js.subscribe("upload","upload",cb=message_handler)
-
-
+	while True:
+		try:
+			msg = await osub.next_msg()
+			await message_handler(msg)
+			await msg.ack()
+		except TimeoutError:
+			pass
 			
 
 

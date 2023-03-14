@@ -22,7 +22,7 @@ def create_contact_mautic(emailData):
     tags.append(emailData['tech'])
     tags.append(email[1])
     tags.append(emailData['prefix'])
-    tags.append(emailData['project'])
+    tags.append(emailData['projectID'])
 
 
 
@@ -33,7 +33,7 @@ def create_contact_mautic(emailData):
         'lastname': email[1],
         'website': emailData['url'],
         'tags': tags,
-        'stage': emailData['project'],
+        'stage': 3,
         'owner':1
         }
     try:
@@ -65,5 +65,7 @@ def get_contacts():
     print(response.text)
 
 
-#create_contact_mautic("matte@elino.se","mattias","hemmingsson")    
+
+testJosn =  {'email': 'reception@brohofslott.se', 'url': 'https://www.brohofslott.se//medlem', 'type': '_email', 'projectID': 'mantiser', 'userid': '1234', 'postid': '12345', 'prefix': 'none', 'dest': ['muatic'], 'tech': [], 'scannerid': '2222', 'data': {'userid': '1234', 'postid': '12345', 'scannerid': '2222', 'getemail': '2', 'project': 'mantiser', 'prefix': 'none', 'dest': ['muatic'], 'deep': 5, 'action': 'page', 'url': 'https://www.brohofslott.se/banor/the-stadium-course'}, 'timestamp': '2023-03-14T20:16:56.217137', 'id': '6410d638f5f9ef262f691d52'}
+create_contact_mautic(testJosn)
 #get_contacts()

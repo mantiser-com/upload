@@ -51,12 +51,11 @@ async def run():
 			me_data_json["id"]=str(monogid)
 			addMeilsearch(me_data_json)
 			upload_data(data_json)
-			print("%%%%%%%%%%%%%%%%%%%%")
-			print(data_json['dest'])
 			#If we have a email in the json upload to muatic
-			if 'email' in data_json: 
-				if 'muatic' in data_json['dest']:
-					create_contact_mautic(data_json)
+			if data_json['type'] == "_email": 
+				create_contact_mautic(data_json)
+			print("%%%%%%%%%%%%%%%%%%%%Saved to DB%%%%%%%%%%%%%%%%%%%%%")
+
 		except:
 			print("Error in upload data")
 			pass

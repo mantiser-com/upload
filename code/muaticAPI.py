@@ -66,6 +66,6 @@ def get_contacts():
 
 
 
-testJosn =  {'email': 'reception@brohofslott.se', 'url': 'https://www.brohofslott.se//medlem', 'type': '_email', 'projectID': 'mantiser', 'userid': '1234', 'postid': '12345', 'prefix': 'none', 'dest': ['muatic'], 'tech': [], 'scannerid': '2222', 'data': {'userid': '1234', 'postid': '12345', 'scannerid': '2222', 'getemail': '2', 'project': 'mantiser', 'prefix': 'none', 'dest': ['muatic'], 'deep': 5, 'action': 'page', 'url': 'https://www.brohofslott.se/banor/the-stadium-course'}, 'timestamp': '2023-03-14T20:16:56.217137', 'id': '6410d638f5f9ef262f691d52'}
-create_contact_mautic(testJosn)
+#testJosn =  {'email': 'reception@brohofslott.se', 'url': 'https://www.brohofslott.se//medlem', 'type': '_email', 'projectID': 'mantiser', 'userid': '1234', 'postid': '12345', 'prefix': 'none', 'dest': ['muatic'], 'tech': [], 'scannerid': '2222', 'data': {'userid': '1234', 'postid': '12345', 'scannerid': '2222', 'getemail': '2', 'project': 'mantiser', 'prefix': 'none', 'dest': ['muatic'], 'deep': 5, 'action': 'page', 'url': 'https://www.brohofslott.se/banor/the-stadium-course'}, 'timestamp': '2023-03-14T20:16:56.217137', 'id': '6410d638f5f9ef262f691d52'}
+#create_contact_mautic(testJosn)
 #get_contacts()

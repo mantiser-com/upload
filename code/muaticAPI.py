@@ -23,6 +23,8 @@ def create_contact_mautic(emailData):
     tags.append(email[1])
     tags.append(emailData['prefix'])
     tags.append(emailData['projectID'])
+    tags.append(emailData['tag'])
+    tags.append(emailData['org'])
 
 
 

@@ -42,11 +42,15 @@ async def run():
 		subject = msg.subject
 		reply = msg.reply
 		data = msg.data.decode()
+		print(data)
 		data_json = json.loads(json.dumps(eval(data)))
 		me_data_json = json.loads(json.dumps(eval(data)))
+		print(data_json['type'])
+
+
 		try:
-			#print("%%%%%%%%%% UPLOAD THIS%%%%%%%%%%")
-			#print(data_json)
+			print("%%%%%%%%%% UPLOAD THIS%%%%%%%%%%")
+			#print(json.dumps(data_json))
 			monogid = storeDB(data_json)
 			me_data_json["id"]=str(monogid)
 			addMeilsearch(me_data_json)
@@ -55,7 +59,6 @@ async def run():
 			if data_json['type'] == "_email": 
 				create_contact_mautic(data_json)
 			print("%%%%%%%%%%%%%%%%%%%%Saved to DB%%%%%%%%%%%%%%%%%%%%%")
-
 		except:
 			print("Error in upload data")
 			pass

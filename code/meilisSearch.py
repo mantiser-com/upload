@@ -32,6 +32,13 @@ documents = [
       { 'id': 1} ]
 ret = index.add_documents(documents)
 
+
+index = client.index('mantiser_watch' )
+documents = [
+      { 'id': 1} ]
+ret = index.add_documents(documents)
+
+
 #except:
 #  print("docs alreaddy there")
 try: 
@@ -109,8 +116,8 @@ except:
 def addMeilsearch(json_data):
     # An index is where the documents are stored.
     print(json_data)
+    print("Adding to meilisearch index " + str(json_data['type']))
     # If the index 'movies' does not exist, Meilisearch creates it when you first add the documents.
-    #json_data["_id"]=0
     index_add = client.index('mantiser{0}'.format(json_data['type']) )
     mreply = index_add.add_documents([json_data]) # => { "uid": 0 }
     print(mreply)

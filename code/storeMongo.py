@@ -38,6 +38,13 @@ def storeDB(mongo_data):
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result.inserted_id))
         return result.inserted_id
+    elif mongo_data['type'] == "_watch":
+        result=db.result_watch.insert_one(mongo_data)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result.inserted_id))
+        return result.inserted_id
+
+
     else:
         result=db.result_other.insert_one(mongo_data)
         #Step 4: Print to the console the ObjectID of the new document

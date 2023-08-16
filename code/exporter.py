@@ -18,7 +18,7 @@ def cars():
     f.write("[")
     for doc in result:
         f.write(json.dumps(doc)+",\n")
-
+    f.write("{}")
     f.write("]")
 
 

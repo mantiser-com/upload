@@ -43,7 +43,11 @@ def storeDB(mongo_data):
         #Step 4: Print to the console the ObjectID of the new document
         print(' {0}'.format(result.inserted_id))
         return result.inserted_id
-
+    elif mongo_data['type'] == "_car":
+        result=db.result_car.update_one({'_id':mongo_data['id']}, {'$set':mongo_data},upsert=True)
+        #Step 4: Print to the console the ObjectID of the new document
+        print(' {0}'.format(result.upserted_id))
+        return result.upserted_id
 
     else:
         result=db.result_other.insert_one(mongo_data)

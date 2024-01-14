@@ -1,0 +1,287 @@
+_id,url,type,projectID,userid,postid,prefix,dest,scannerid,tag,org,timestamp,name,id,link,currency,info,price,timestampNats
+16699787,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:09.636716,"Volvo V90 CC D4 AWD Momentum,Plus Nyservad Nybes
+",16699787,/se/d/16699787-begagnad-volvo-v90-cc-d4-awd-momentum-plus-nyservad-nybes,SEK,"['Sep 2018', '11 990 mil', '2.0L Diesel', 'Automat', '140 HK (102 kW)']","
+299 900 kr
+Ny
+",2023-08-15T18:57:09.636734
+16699786,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:14.639643,"Peugeot 108 5-dörrar 1.0 VTi Euro 6 69hk Canavastop Cab
+",16699786,/se/d/16699786-begagnad-peugeot-108-5-dorrar-1-0-vti-euro-6-69hk-canavastop-cab,SEK,"['Apr 2016', '4 075 mil', '1.0L Bensin', 'Manuell', '51 HK (37 kW)']","
+94 900 kr
+Ny
+",2023-08-15T18:57:14.639660
+16699785,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:19.642795,"Honda CR-V Executive Hybrid AWD E-CVT. 215hk
+",16699785,/se/d/16699785-begagnad-honda-cr-v-executive-hybrid-awd-e-cvt-215hk,SEK,"['Jan 2021', '1 980 mil', '2.0L Hybrid', 'Automat', '215 HK (158 kW)']","
+389 000 kr
+Ny
+",2023-08-15T18:57:19.642825
+16699784,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:24.645735,"VW Sharan 
+",16699784,/se/d/16699784-begagnad-vw-sharan,SEK,"['Jan 2016', '18 500 mil', '2.0L Diesel', 'Manuell']","
+209 000 kr
+Ny
+",2023-08-15T18:57:24.645753
+16699781,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:29.648636,"DS Automobiles DS5 
+",16699781,/se/d/16699781-begagnad-ds-automobiles-ds5,SEK,"['Okt 2016', '8 592 mil', '2.0L Diesel', 'Automat', '181 HK (133 kW)', '4.4 L/10mil', '114 g CO2/km comb.']","
+179 800 kr
+Ny
+",2023-08-15T18:57:29.648653
+16699779,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:34.651552,"Toyota Auris Hybrid Auris
+",16699779,/se/d/16699779-begagnad-toyota-auris-hybrid-auris,SEK,"['Sep 2015', '8 360 mil', '1.8L Hybrid', 'Automat', '99 HK (72 kW)']","
+183 500 kr
+Ny
+",2023-08-15T18:57:34.651570
+16699778,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:39.661900,"Toyota Auris Touring Sports Hybrid e-CVT Eu6 M-värmare 136hk
+",16699778,/se/d/16699778-begagnad-toyota-auris-touring-sports-hybrid-e-cvt-eu6-m-varmare-136hk,SEK,"['Sep 2016', '7 621 mil', '1.8L Hybrid', 'Automat', '99 HK (72 kW)', '4.0 L/10mil']","
+179 800 kr
+Ny
+",2023-08-15T18:57:39.661919
+16699777,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:44.664304,"Toyota Auris Touring Sports Hybrid e-CVT 136hk Executive
+",16699777,/se/d/16699777-begagnad-toyota-auris-touring-sports-hybrid-e-cvt-136hk-executive,SEK,"['Jun 2016', '10 438 mil', '1.8L Hybrid', 'Automat', '99 HK (72 kW)', '4.0 L/10mil']","
+179 000 kr
+Ny
+",2023-08-15T18:57:44.664322
+16699776,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:49.667211,"Volvo XC60 T6 AWD Recharge Plus Bright
+",16699776,/se/d/16699776-begagnad-volvo-xc60-t6-awd-recharge-plus-bright,SEK,"['2023', '2 080 mil', '2.0L Hybrid', 'Automat', '397 HK (291 kW)']","
+649 500 kr
+Ny
+",2023-08-15T18:57:49.667229
+16699773,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:54.670080,"Volvo XC90 T8 AWD Recharge Plus Bright
+",16699773,/se/d/16699773-begagnad-volvo-xc90-t8-awd-recharge-plus-bright,SEK,"['2023', '2 586 mil', '2.0L Hybrid', 'Automat', '456 HK (335 kW)']","
+835 000 kr
+Ny
+",2023-08-15T18:57:54.670100
+16699771,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:57:59.673055,"Cupra Formentor VZ e-Hybrid 1.4
+",16699771,/se/d/16699771-ny-cupra-formentor-vz-e-hybrid-1-4,SEK,"['2023', '0 mil', '1.4L Hybrid', 'Automat', '245 HK (180 kW)', '1.9 L/10mil', '43 g CO2/km comb.']","
+474 900 kr
+Ny
+",2023-08-15T18:57:59.673077
+16699769,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:04.675903,"Volvo XC60 T6 AWD Recharge Ultimate Bright
+",16699769,/se/d/16699769-ny-volvo-xc60-t6-awd-recharge-ultimate-bright,SEK,"['2023', '200 mil', '2.0L Hybrid', 'Automat', '397 HK (291 kW)']","
+719 000 kr
+Ny
+",2023-08-15T18:58:04.675920
+16699765,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:09.679044,"Fiat Fullback 4x4 Dubbelhytt Kåpa Drag Värmare 2016, Personbil
+",16699765,/se/d/16699765-begagnad-fiat-fullback-4x4-dubbelhytt-kapa-drag-varmare-2016-personbil,SEK,"['Aug 2016', '12 500 mil', '2.4L Diesel', 'Manuell', '181 HK (133 kW)', '6.4 L/10mil', '169 g CO2/km comb.']","
+199 900 kr
+Ny
+",2023-08-15T18:58:09.679063
+16699764,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:14.681959,"Land Rover Range Rover Sport Sport Range SVR Automat CARBON SV-SÅL 2016, SUV
+",16699764,/se/d/16699764-begagnad-land-rover-range-rover-sport-sport-range-svr-automat-carbon-sv-sal-2016-suv,SEK,"['2016', '11 480 mil', 'Bensin', 'Automat', '550 HK (404 kW)']","
+699 000 kr
+Ny
+",2023-08-15T18:58:14.681977
+16699763,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:37:05.942605,"Toyota Yaris Hybrid 1,5 Active LED-ramp M-värmare Vhjul
+",16699763,/se/d/16699763-begagnad-toyota-yaris-hybrid-1-5-active-led-ramp-m-varmare-vhjul,SEK,"['2021', '13 770 mil', '1.5L Hybrid', 'Automat', '116 HK (85 kW)', '2.8 L/10mil', '64 g CO2/km comb.']","
+159 000 kr
+Ny
+",2023-08-15T18:37:05.942624
+16699762,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:20.289852,"Toyota RAV4 Hybrid AWD-i AWD M-Värmare Ledramp SoV Euro 6 222hk
+",16699762,/se/d/16699762-begagnad-toyota-rav4-hybrid-awd-i-awd-m-varmare-ledramp-sov-euro-6-222hk,SEK,"['2021', '13 055 mil', '2.5L Hybrid', 'Automat', '222 HK (163 kW)', '4.4 L/10mil', '100 g CO2/km comb.']","
+329 900 kr
+Ny
+",2023-08-15T18:58:20.289867
+16699761,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:25.292474,"Toyota C-HR Hybrid 1,8 X-edition JBL Skinn Teknikpaket
+",16699761,/se/d/16699761-begagnad-toyota-c-hr-hybrid-1-8-x-edition-jbl-skinn-teknikpaket,SEK,"['2021', '3 742 mil', '1.8L Hybrid', 'Automat', '122 HK (89 kW)', '3.8 L/10mil', '86 g CO2/km comb.']","
+284 899 kr
+Ny
+",2023-08-15T18:58:25.292492
+16699760,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:30.294938,"Saab 9-3 Kombi Vector 1.8T Biopower 175hk
+",16699760,/se/d/16699760-begagnad-saab-9-3-kombi-vector-1-8t-biopower-175hk,SEK,"['Okt 2008', '19 000 mil', '2.0L Etanol (E85)', 'Manuell', '150 HK (110 kW)']","
+54 900 kr
+Ny
+",2023-08-15T18:58:30.294956
+16699759,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:35.297946,"Saab 9-3 SportCombi 1.8t BioPower Vector / Nyservad 175hk
+",16699759,/se/d/16699759-begagnad-saab-9-3-sportcombi-1-8t-biopower-vector-nyservad-175hk,SEK,"['Jan 2007', '20 400 mil', '2.0L Etanol (E85)', 'Manuell', '150 HK (110 kW)']","
+47 900 kr
+Ny
+",2023-08-15T18:58:35.297965
+16699758,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:40.300861,"Saab 9-3 SportCombi 1.8t BioPower Automat Linear 175hk
+",16699758,/se/d/16699758-begagnad-saab-9-3-sportcombi-1-8t-biopower-automat-linear-175hk,SEK,"['Jul 2008', '27 000 mil', '2.0L Etanol (E85)', 'Automat', '150 HK (110 kW)']","
+44 900 kr
+Ny
+",2023-08-15T18:58:40.300878
+16699757,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:45.303937,"Skoda Octavia 1.6 MPI 102hk Dragkrok
+",16699757,/se/d/16699757-begagnad-skoda-octavia-1-6-mpi-102hk-dragkrok,SEK,"['Jul 2008', '22 918 mil', '1.6L Etanol (E85)', 'Manuell', '102 HK (75 kW)']","
+36 000 kr
+Ny
+",2023-08-15T18:58:45.303956
+16699754,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:50.306926,"Renault Mégane Plug-in Sport Tourer PhII 160 Techno ST
+",16699754,/se/d/16699754-ny-renault-megane-plug-in-sport-tourer-phii-160-techno-st,SEK,"['2023', '0 mil', '1.6L Hybrid', 'Automat', '160 HK (117 kW)', '1.3 L/10mil', '29 g CO2/km comb.']","
+479 900 kr
+Ny
+",2023-08-15T18:58:50.306945
+16699753,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:58:55.310047,"BMW Isetta 300 545e xDrive Sedan M-Sport Pro Innovation Laserljus Nyp 992kr
+",16699753,/se/d/16699753-begagnad-bmw-isetta-300-545e-xdrive-sedan-m-sport-pro-innovation-laserljus-nyp-992kr,SEK,"['2023', '1 234 mil', '3.0L Hybrid', 'Automat', '394 HK (289 kW)', '2.1 L/10mil', '49 g CO2/km comb.']","
+814 700 kr
+Ny
+",2023-08-15T18:58:55.310064
+16699752,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:00.313048,"Cupra Formentor VZ e-Hybrid 245hk
+",16699752,/se/d/16699752-ny-cupra-formentor-vz-e-hybrid-245hk,SEK,"['2023', '0 mil', '1.4L Hybrid', 'Automat', '245 HK (180 kW)', '1.9 L/10mil', '43 g CO2/km comb.']","
+464 900 kr
+Ny
+",2023-08-15T18:59:00.313067
+16699750,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:05.316032,"BMW 530 e xDrive Touring M-Sport Värmare Läder Drag HiFi
+",16699750,/se/d/16699750-begagnad-bmw-530-e-xdrive-touring-m-sport-varmare-lader-drag-hifi,SEK,"['2023', '1 293 mil', '2.0L Hybrid', 'Automat', '292 HK (214 kW)', '2.2 L/10mil', '50 g CO2/km comb.']","
+589 700 kr
+Ny
+",2023-08-15T18:59:05.316050
+16699749,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:10.318994,"BMW 330e xDrive Touring M Sport Adaptiv farthållare Drag
+",16699749,/se/d/16699749-begagnad-bmw-330e-xdrive-touring-m-sport-adaptiv-farthallare-drag,SEK,"['2023', '2 575 mil', '2.0L Hybrid', 'Automat', '292 HK (214 kW)', '1.9 L/10mil', '43 g CO2/km comb.']","
+578 700 kr
+Ny
+",2023-08-15T18:59:10.319012
+16699748,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:15.322256,"Porsche Macan Turbo PDK Sport Chrono Luft Pano Drag 2016, SUV
+",16699748,/se/d/16699748-begagnad-porsche-macan-turbo-pdk-sport-chrono-luft-pano-drag-2016-suv,SEK,"['Nov 2016', '16 510 mil', '3.6L Bensin', 'Automat', '400 HK (294 kW)', '9.0 L/10mil', '211 g CO2/km comb.']","
+389 800 kr
+Ny
+",2023-08-15T18:59:15.322274
+16699746,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:20.325179,"Opel Mokka GS Line Plus P130 Aut - DEMO
+",16699746,/se/d/16699746-begagnad-opel-mokka-gs-line-plus-p130-aut-demo,SEK,"['Jul 2022', '1 018 mil', '1.2L Bensin', 'Automat', '131 HK (96 kW)']","
+279 900 kr
+Ny
+",2023-08-15T18:59:20.325198
+16699745,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:25.328404,"Opel Astra GS Line 130 AUT
+",16699745,/se/d/16699745-begagnad-opel-astra-gs-line-130-aut,SEK,"['Jun 2022', '850 mil', '1.2L Bensin', 'Automat', '131 HK (96 kW)']","
+324 900 kr
+Ny
+",2023-08-15T18:59:25.328422
+16699744,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:30.331259,"VW Sharan 2.0 TDI DSG Sekventiell 7-sits 170hk |PANO
+",16699744,/se/d/16699744-begagnad-vw-sharan-2-0-tdi-dsg-sekventiell-7-sits-170hk-pano,SEK,"['Maj 2012', '15 774 mil', '2.0L Diesel', 'Automat', '170 HK (125 kW)']","
+159 900 kr
+Ny
+",2023-08-15T18:59:30.331277
+16699743,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,_car,car,mantiser,autouncle,car,mongodb,core,"['car', 'autouncle']",autouncle,2023-08-15T18:59:35.334044,"VW Golf Plus 1.6 TDI BlueMotion 105hk Drag Värmare Kamera
+",16699743,/se/d/16699743-begagnad-vw-golf-plus-1-6-tdi-bluemotion-105hk-drag-varmare-kamera,SEK,"['Feb 2012', '12 874 mil', '1.6L Diesel', 'Manuell', '105 HK (77 kW)']","
+79 900 kr
+Ny
+",2023-08-15T18:59:35.334063
+16699788
+16699741,SEK,mongodb,16699741,"['2023', '0 mil', 'El', 'Automat', '≈ 463 mil', '16.4 Kwh/100 km', '0 g CO2/km comb.']",/se/d/16699741-ny-kia-e-niro-advance-omgaende-leverans-2023-suv,"Kia e-Niro Advance Omgående Leverans 2023, SUV
+",autouncle,autouncle,car,"
+560 500 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:59:45.339349,2023-08-15T18:59:45.339368,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699739,SEK,mongodb,16699739,"['Mar 2017', '14 472 mil', '2.4L Diesel', 'Automat', '190 HK (139 kW)', '5.7 L/10mil', '149 g CO2/km comb.']",/se/d/16699739-begagnad-volvo-v60-cc-d4-awd-summum-v-hjul-2017-kombi,"Volvo V60 CC D4 AWD SUMMUM V-hjul 2017, Kombi
+",autouncle,autouncle,car,"
+219 900 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:59:55.344990,2023-08-15T18:59:55.345007,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699738,SEK,mongodb,16699738,"['Sep 2017', '8 778 mil', '2.0L Diesel', 'Automat', '120 HK (88 kW)', '3.8 L/10mil', '101 g CO2/km comb.']",/se/d/16699738-begagnad-volvo-v40-d2-geartronic-kinetic-navi-backkamera-2017-kombi,"Volvo V40 D2 Geartronic Kinetic | Navi | Backkamera | 2017, Kombi
+",autouncle,autouncle,car,"
+184 900 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T19:00:00.347840,2023-08-15T19:00:00.347859,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699737,SEK,mongodb,16699737,"['Dec 2017', '15 110 mil', '1.6L Diesel', 'Automat', '160 HK (117 kW)', '120 g CO2/km comb.']",/se/d/16699737-begagnad-renault-espace-1-6-dci-edc-160hk-7-sits-varmare-gps-drag,"Renault Espace 1.6 dCi EDC 160HK 7-Sits Värmare GPS Drag
+",autouncle,autouncle,car,"
+219 500 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T19:00:05.351069,2023-08-15T19:00:05.351088,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699736,SEK,mongodb,16699736,"['Apr 2005', '12 652 mil', '1.4L Bensin', 'Manuell', '75 HK (55 kW)']",/se/d/16699736-begagnad-citroen-berlingo-5-sits-1-4-ny-kamrem-ny-servad-ny-bes,"Citroën Berlingo 5-Sits 1.4 / Ny Kamrem / Ny Servad / Ny Bes
+",autouncle,autouncle,car,"
+44 900 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T19:00:10.354005,2023-08-15T19:00:10.354023,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699735,SEK,mongodb,16699735,"['2018', '5 400 mil', '1.2L Bensin', 'Automat', '131 HK (96 kW)']",/se/d/16699735-begagnad-opel-grandland-x-1-2-turbo-automat-130-hk-1-agare-5400-mil,"Opel Grandland X 1.2 Turbo Automat 130 HK 1 Ägare 5400 mil
+",autouncle,autouncle,car,"
+195 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T19:00:15.356986,2023-08-15T19:00:15.357005,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699734,SEK,mongodb,16699734,"['2018', '3 610 mil', '1.2L Bensin', 'Automat', '131 HK (96 kW)']",/se/d/16699734-begagnad-peugeot-3008-1-2-puretech-eat-allure-euro-6-130hk,"Peugeot 3008 1.2 PureTech EAT Allure Euro 6 130hk
+",autouncle,autouncle,car,"
+219 900 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:39:06.674066,2023-08-15T18:39:06.674085,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699733,SEK,mongodb,16699733,"['2018', '7 500 mil', '1.2L Bensin', 'Automat', '116 HK (85 kW)', '5.6 L/10mil', '129 g CO2/km comb.']",/se/d/16699733-begagnad-nissan-qashqai-1-2-dig-t-aut-navi-360-kamera-xtronic,"Nissan Qashqai 1.2 DIG-T Aut Navi 360 Kamera Xtronic
+",autouncle,autouncle,car,"
+189 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:39:11.676811,2023-08-15T18:39:11.676829,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699732,SEK,mongodb,16699732,"['2018', '5 557 mil', '2.0L Bensin', 'Automat', '262 HK (192 kW)']",/se/d/16699732-begagnad-volvo-s90-polestar-t5-261hk-inscription-voc-b-w-t-lucka-blis,"Volvo S90 Polestar T5 261hk Inscription VOC B&W T-lucka BLIS
+",autouncle,autouncle,car,"
+334 800 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:39:16.680456,2023-08-15T18:39:16.680483,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699731,SEK,mongodb,16699731,"['2018', '3 500 mil', '4.0L Bensin', 'Automat', '510 HK (375 kW)']",/se/d/16699731-begagnad-mercedes-c63s-amg-amgcabriolet,"Mercedes C63S AMG AMGCabriolet
+",autouncle,autouncle,car,"
+789 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:39:21.683632,2023-08-15T18:39:21.683651,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699730,SEK,mongodb,16699730,"['2018', '6 000 mil', '7.5L Bensin', 'Automat', '310 HK (228 kW)']",/se/d/16699730-begagnad-vw-golf-vii,"VW Golf VII 
+",autouncle,autouncle,car,"
+375 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:39:26.686325,2023-08-15T18:39:26.686343,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699729,SEK,mongodb,16699729,"['2018', '11 000 mil', '1.6L Bensin', 'Automat', '157 HK (115 kW)']",/se/d/16699729-begagnad-mercedes-cla200-shooting-brake-7g-dct,"Mercedes CLA200 Shooting Brake 7G-DCT
+",autouncle,autouncle,car,"
+215 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:39:31.692478,2023-08-15T18:39:31.692496,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699728,SEK,mongodb,16699728,"['2018', '9 000 mil', '2.0L Bensin', 'Automat', '310 HK (228 kW)']",/se/d/16699728-begagnad-vw-golf-vii,"VW Golf VII 
+",autouncle,autouncle,car,"
+335 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:33:39.797497,2023-08-15T18:33:39.797515,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699727,SEK,mongodb,16699727,"['2018', '6 301 mil', '1.2L Bensin', 'Automat', '131 HK (96 kW)']",/se/d/16699727-begagnad-peugeot-3008-1-2-puretech-130hk-cockpit-varmare-sensorer,"Peugeot 3008 1.2 PureTech 130hk Cockpit Värmare Sensorer
+",autouncle,autouncle,car,"
+224 800 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:33:44.800507,2023-08-15T18:33:44.800526,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699742,SEK,mongodb,16699742,"['Apr 2017', '14 100 mil', '2.0L Diesel', 'Automat', '150 HK (110 kW)', '6.2 L/10mil', '161 g CO2/km comb.']",/se/d/16699742-begagnad-vw-transporter-t5t30-2-0-tdi-dsg-d-varm-drag-2017-minibuss,"VW Transporter T5T30 2.0 TDI DSG D värm Drag 2017, Minibuss
+",autouncle,autouncle,car,"
+229 800 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:59:40.336857,2023-08-15T18:59:40.336875,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699740,SEK,mongodb,16699740,"['2017', '13 600 mil', '1.5L Diesel', 'Manuell']",/se/d/16699740-begagnad-renault-megane-iv,"Renault Mégane IV 
+",autouncle,autouncle,car,"
+109 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:59:50.342083,2023-08-15T18:59:50.342102,_car,https://www.autouncle.se/se/begagnade-bilar?page=2&s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699798,SEK,mongodb,16699798,"['Aug 2014', '23 050 mil', '2.0L Diesel', 'Automat', '130 HK (95 kW)']",/se/d/16699798-begagnad-vw-cc-2-0-tdi-4motion-dsg-sekventiell-177hk,"VW CC 2.0 TDI 4Motion DSG Sekventiell 177hk
+",autouncle,autouncle,car,"
+114 900 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:19.606753,2023-08-15T18:56:19.606767,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699797,SEK,mongodb,16699797,"['Jun 2016', '16 207 mil', '1.2L Bensin', 'Manuell', '81 HK (59 kW)']",/se/d/16699797-begagnad-vw-golf-vii,"VW Golf VII 
+",autouncle,autouncle,car,"
+104 500 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:24.610500,2023-08-15T18:56:24.610519,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699796,SEK,mongodb,16699796,"['Jun 2016', '12 418 mil', '2.0L Diesel', 'Automat', '110 HK (80 kW)']",/se/d/16699796-begagnad-vw-caddy-maxi-2-0-tdi-4m-aut-drag-navi-b-kam-moms,"VW Caddy Maxi 2.0 TDI 4M AUT DRAG NAVI B-KAM MOMS
+",autouncle,autouncle,car,"
+249 900 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:29.613569,2023-08-15T18:56:29.613592,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699795,SEK,mongodb,16699795,"['Dec 2020', '7 953 mil', '2.2L Diesel', 'Automat', '147 HK (108 kW)']",/se/d/16699795-begagnad-kia-sorento-2-2-crdi-awd-automat-7-sits-200hk-drag-gt-line,"Kia Sorento 2.2 CRDi AWD Automat 7-sits 200hk Drag GT-Line
+",autouncle,autouncle,car,"
+379 500 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:34.616664,2023-08-15T18:56:34.616691,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699794,SEK,mongodb,16699794,"['Sep 2014', '17 500 mil', '2.0L Diesel', 'Automat', '130 HK (95 kW)']",/se/d/16699794-begagnad-audi-a4-allroad-quattro-2-0-tdi-177hk-drag,"Audi A4 Allroad Quattro 2.0 TDI 177hk Drag
+",autouncle,autouncle,car,"
+129 500 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:39.619582,2023-08-15T18:56:39.619600,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699793,SEK,mongodb,16699793,"['Jan 2010', '21 000 mil', '2.3L Diesel', 'Manuell']",/se/d/16699793-begagnad-opel-movano,"Opel Movano 
+",autouncle,autouncle,car,"
+129 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:44.622468,2023-08-15T18:56:44.622488,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699792,SEK,mongodb,16699792,"['Jan 2019', '15 800 mil', '2.0L Diesel', 'Automat']",/se/d/16699792-begagnad-vw-caddy-maxi-aut,"VW Caddy Maxi Aut
+",autouncle,autouncle,car,"
+189 000 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:49.625457,2023-08-15T18:56:49.625477,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699791,SEK,mongodb,16699791,"['2023', '1 mil', '1.0L Bensin', 'Automat', '120 HK (88 kW)']",/se/d/16699791-ny-hyundai-i20-1-0-t-gdi-120hk-7dct-mhev-n-line-skyltbil,"Hyundai i20 1.0 T-GDi 120hk 7DCT MHEV N Line Skyltbil
+",autouncle,autouncle,car,"
+261 800 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:54.628158,2023-08-15T18:56:54.628180,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699790,SEK,mongodb,16699790,"['2023', '1 mil', '1.3L Bensin', 'Manuell', '84 HK (61 kW)']",/se/d/16699790-ny-hyundai-bayon-1-25-mpi-mt5-84-hk-essential,"Hyundai Bayon 1.25 MPi MT5 84 hk Essential
+",autouncle,autouncle,car,"
+216 800 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:56:59.630754,2023-08-15T18:56:59.630773,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser
+16699789,SEK,mongodb,16699789,"['2023', '1 mil', '1.3L Bensin', 'Manuell', '84 HK (61 kW)']",/se/d/16699789-ny-hyundai-bayon-1-25-mpi-mt5-84-hk-essential,"Hyundai Bayon 1.25 MPi MT5 84 hk Essential
+",autouncle,autouncle,car,"
+216 800 kr
+Ny
+",car,core,"['car', 'autouncle']",2023-08-15T18:57:04.633455,2023-08-15T18:57:04.633473,_car,https://www.autouncle.se/se/begagnade-bilar?s%5Border_by%5D=cars.created_at+DESC,mantiser

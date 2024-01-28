@@ -4,7 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mantiser-uploader
-  namespace: mantiser
+  namespace: base
 spec:
   selector:
     matchLabels:

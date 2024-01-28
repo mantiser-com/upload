@@ -20,7 +20,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: NATS
-              value: nats.nats.svc
+              value: nats
             - name: SEARCH
               value: "Mantiser"
             - name: USER_ID
@@ -28,7 +28,7 @@ spec:
             - name: RESULT_NATS
               value: "nats"
             - name: MEILISEARCH 
-              value: http://meilisearch.meilisearch.svc:7700
+              value: http://meilisearch:7700
             - name: MUATIC_AUTH
               valueFrom:
                 secretKeyRef:

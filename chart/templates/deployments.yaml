@@ -50,6 +50,6 @@ spec:
             - name: MEILISEARCH_KEY
               valueFrom:
                 secretKeyRef:
-                  name: mantiser 
+                  name: meilisearch-master-key 
                   key: MEILI_MASTER_KEY
-                  optional: false
+                  optional: false 
